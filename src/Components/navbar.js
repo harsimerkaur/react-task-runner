@@ -1,9 +1,9 @@
 // import React from 'react';
 // import ReactDOM from 'react-dom';
-import React from 'react';
-import logo from './images/logo192.png';
+import React from "react";
+import logo from "../images/logo192.png";
 
- const  Navbar = () => {
+const Navbar = () => {
   return (
     // <div>
     //   <h1>
@@ -31,14 +31,11 @@ import logo from './images/logo192.png';
         <li>About</li>
       </ul>
     </div>
-  
-  )
-
-}
+  );
+};
 export default Navbar;
 // ReactDOM.render(<div><Navbar /> <MyMainContent /> </div>, document.getElementById("rooot"))
 
 // ReactDOM.render(newElement, document.getElementById("rooot"))
 
 // document.getElementById("rooot").append(JSON.stringify(Navbar))
-
